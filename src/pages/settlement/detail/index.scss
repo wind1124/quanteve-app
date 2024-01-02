@@ -1,0 +1,74 @@
+.settlementDetail-wrap {
+  flex: 1;
+  background: #000;
+  padding-left: 20px;
+  padding-right: 20px;
+  /*  #ifdef h5  */
+  padding-top: 20px;
+  width: calc(100% - 40px);
+  /*  #endif  */
+}
+
+.settlementDetail-hello {
+  font-size: 28px;
+  color: #f4dfad;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.settlementDetail-box {
+  border: 1px solid #f4dfad;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.settlementDetail-top20 {
+  margin-top: 20px;
+}
+
+.settlementDetail-text {
+  font-size: 28px;
+  color: #f4dfad;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.settlementDetail-err {
+  color: #f55249;
+  font-size: 28px;
+  display: flex;
+  flex-direction: row;
+}
+
+.settlementDetail-table-container {
+  border: 1px solid #f4dfad;
+  border-collapse: collapse;
+}
+
+.settlementDetail-header-row {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.settlementDetail-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid #f4dfad;
+}
+
+.settlementDetail-header-cell,
+.settlementDetail-cell {
+  text-align: center;
+  flex: 1;
+  padding: 5px;
+  color: #f4dfad;
+  border-left: 1px solid #f4dfad;
+  font-size: 26px;
+}

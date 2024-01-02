@@ -1,0 +1,65 @@
+.overlay {
+  position: absolute;
+  height: 100%;
+  max-height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #00000070;
+}
+
+.popup {
+  position: absolute;
+  max-height: 100%;
+  overflow-y: auto;
+  background: #fff;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.popupBottom {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.popupTop {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.popupLeft {
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.popupRight {
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.popupCenter {
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  border-radius: 40px;
+  /*  #ifdef h5  */
+  transform: translate(-50%, -50%);
+  /*  #endif  */
+
+  /*  #ifdef rn  */
+  top: 0;
+  left: 10%;
+  /*  #endif  */
+}
+
+.popd9c187 {
+  background: #f4dfad;
+}
+
+.popFFFCEE {
+  background: #fffcee;
+}

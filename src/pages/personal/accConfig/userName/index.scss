@@ -1,0 +1,64 @@
+.personalAccConfigUserName-wrap {
+  flex: 1;
+  background: #000;
+  /*  #ifdef h5  */
+  padding-top: 20px;
+  /*  #endif  */
+}
+
+.personalAccConfigUserName-info {
+  padding: 0 32px;
+}
+
+.personalAccConfigUserName-user {
+  border: 1px solid #64635f;
+  border-radius: 20px;
+  height: 120px;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+  }
+  /*  #endif  */
+}
+
+.personalAccConfigUserName-userInput {
+  border-color: #f4dfad;
+  padding: 0 40px;
+}
+
+.personalAccConfigUserName-userPlaceholder {
+  color: #c9c5b7;
+  padding: 0;
+  margin: 0;
+}
+
+.personalAccConfigUserName-userError {
+  color: red;
+  padding: 5px 40px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.personalAccConfigUserName-error {
+  border: 1px solid red;
+}
+
+.personalAccConfigUserName-btnWrap {
+  padding-top: 20px;
+}
+
+.personalAccConfigUserName-linearGradient {
+  padding: 30px 40px;
+  border-radius: 50px;
+  margin-top: 32px;
+}
+
+.personalAccConfigUserName-linearGradientText {
+  width: 100%;
+  text-align: center;
+  color: #4d3813;
+  font-size: 30px;
+}

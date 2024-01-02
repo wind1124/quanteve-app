@@ -1,0 +1,14 @@
+.aboutUs-wrap {
+  flex: 1;
+  background: #000;
+
+  /*  #ifdef h5  */
+  padding-top: 20px;
+  /*  #endif  */
+}
+
+.aboutUs-wrap-title {
+  color: #f4dfad;
+  font-size: 28px;
+  flex: 1;
+}

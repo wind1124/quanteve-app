@@ -1,0 +1,232 @@
+.personalAccConfigTradingPlatformData-wrap {
+  flex: 1;
+  background: #000;
+  /*  #ifdef h5  */
+  padding-top: 20px;
+  /*  #endif  */
+}
+
+.personalAccConfigTradingPlatformData-info {
+  padding: 0 32px;
+}
+
+.personalAccConfigTradingPlatformData-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.personalAccConfigTradingPlatformData-top30 {
+  margin-top: 30px;
+}
+
+.personalAccConfigTradingPlatformData-label {
+  font-size: 30px;
+  color: #f4dfad;
+}
+
+.personalAccConfigTradingPlatformData-email {
+  position: relative;
+  border: 1px solid #64635f;
+  border-radius: 20px;
+  height: 120px;
+  width: 480px;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    width: 400px;
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+  }
+  /*  #endif  */
+}
+
+.personalAccConfigTradingPlatformData-secretKey {
+  width: 440px;
+  /*  #ifdef h5  */
+  .weui-input {
+    width: 360px;
+  }
+  /*  #endif  */
+}
+
+.personalAccConfigTradingPlatformData-emailInput {
+  border-color: #f4dfad;
+  padding: 0 40px;
+}
+
+.personalAccConfigTradingPlatformData-emailPlaceholder {
+  color: #c9c5b7;
+  padding: 0;
+  margin: 0;
+}
+
+.personalAccConfigTradingPlatformData-emailError {
+  color: red;
+  padding: 5px 40px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.personalAccConfigTradingPlatformData-eye {
+  position: absolute;
+  right: 8px;
+  top: 27px;
+  width: 48px;
+  height: 48px;
+  /*  #ifdef rn  */
+  top: 38px;
+  /*  #endif  */
+}
+
+.personalAccConfigTradingPlatformData-error {
+  border: 1px solid red;
+}
+
+.personalAccConfigTradingPlatformData-btnWrap {
+  padding-top: 20px;
+}
+
+.personalAccConfigTradingPlatformData-linearGradient {
+  padding: 30px 40px;
+  border-radius: 50px;
+  margin-top: 32px;
+}
+
+.personalAccConfigTradingPlatformData-linearGradientText {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: #4d3813;
+}
+
+.personalAccConfigTradingPlatformData-safetyCertificateWrap {
+  height: 400px;
+  overflow: hidden;
+  background: #fffcee;
+  border-radius: 40px;
+}
+
+.personalAccConfigTradingPlatformData-safetyCertificateContent {
+  height: 270px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personalAccConfigTradingPlatformData-safetyCertificateContentHeader {
+  font-size: 30px;
+  color: #4d3813;
+  padding: 24px 0;
+  text-align: center;
+}
+
+.personalAccConfigTradingPlatformData-safetyCertificateContentPassword {
+  border: 1px solid #4d3813;
+  border-radius: 20px;
+  height: 100px;
+  width: 530px;
+  color: #4d3813;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+    &::placeholder {
+      color: #4d3813;
+    }
+  }
+  /*  #endif  */
+}
+
+.personalAccConfigTradingPlatformData-passwordPlaceholder {
+  color: #4d3813;
+  padding: 0;
+  margin: 0;
+}
+
+.personalAccConfigTradingPlatformData-safetyCertificateContentRecord {
+  font-size: 28px;
+  color: #4d3813;
+  margin-top: 10px;
+}
+
+.personalAccConfigTradingPlatformData-safetyCertificateBtnWrap {
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.personalAccConfigTradingPlatformData-linearGradientsafetyCertificateBtn {
+  width: 240px;
+  height: 70px;
+  line-height: 70px;
+  border: 1px solid #4d3813;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personalAccConfigTradingPlatformData-safetyCertificateBtn {
+  font-size: 30px;
+  color: #4d3813;
+}
+
+.personalAccConfigTradingPlatformData-toastWrap {
+  height: 200px;
+  overflow: hidden;
+  background: #fffcee;
+  border-radius: 40px;
+}
+
+.personalAccConfigTradingPlatformData-toastTitle {
+  font-size: 30px;
+  color: #4d3813;
+  padding: 24px 0 0;
+  text-align: center;
+  /*  #ifdef rn  */
+  margin-bottom: 14px;
+  /*  #endif  */
+}
+
+.personalAccConfigTradingPlatformData-toastBtnWrap {
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.personalAccConfigTradingPlatformData-toastBtn {
+  width: 240px;
+  height: 70px;
+  line-height: 70px;
+  border: 1px solid #4d3813;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personalAccConfigTradingPlatformData-toastBtnText {
+  font-size: 30px;
+  color: #4d3813;
+}
+
+.personalAccConfigTradingPlatformData-message {
+  color: #f55249;
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.personalAccConfigTradingPlatformData-messageText {
+  color: #f55249;
+  font-size: 28px;
+}

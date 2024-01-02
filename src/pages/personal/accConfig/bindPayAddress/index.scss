@@ -1,0 +1,141 @@
+.personalAccConfigBindPayAddress-wrap {
+  flex: 1;
+  background: #000;
+  /*  #ifdef h5  */
+  padding-top: 20px;
+  /*  #endif  */
+}
+
+.personalAccConfigBindPayAddress-info {
+  padding: 0 32px;
+}
+
+.personalAccConfigBindPayAddress-user {
+  border: 1px solid #64635f;
+  border-radius: 20px;
+  height: 120px;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+  }
+  /*  #endif  */
+}
+
+.personalAccConfigBindPayAddress-userInput {
+  border-color: #f4dfad;
+  padding: 0 40px;
+}
+
+.personalAccConfigBindPayAddress-userPlaceholder {
+  color: #c9c5b7;
+  padding: 0;
+  margin: 0;
+}
+
+.personalAccConfigBindPayAddress-userError {
+  color: red;
+  padding: 5px 40px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.personalAccConfigBindPayAddress-error {
+  border: 1px solid red;
+}
+
+.personalAccConfigBindPayAddress-btnWrap {
+  padding-top: 20px;
+}
+
+.personalAccConfigBindPayAddress-linearGradient {
+  padding: 30px 40px;
+  border-radius: 50px;
+  margin-top: 32px;
+}
+
+.personalAccConfigBindPayAddress-linearGradientText {
+  width: 100%;
+  text-align: center;
+  color: #4d3813;
+  font-size: 30px;
+}
+
+.personalAccConfigBindPayAddress-safetyCertificateWrap {
+  height: 400px;
+  overflow: hidden;
+  background: #fffcee;
+  border-radius: 40px;
+}
+
+.personalAccConfigBindPayAddress-safetyCertificateContent {
+  height: 270px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personalAccConfigBindPayAddress-safetyCertificateContentHeader {
+  font-size: 30px;
+  color: #4d3813;
+  padding: 24px 0;
+  text-align: center;
+}
+
+.personalAccConfigBindPayAddress-safetyCertificateContentPassword {
+  border: 1px solid #4d3813;
+  border-radius: 20px;
+  height: 100px;
+  width: 530px;
+  color: #4d3813;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+    &::placeholder {
+      color: #4d3813;
+    }
+  }
+  /*  #endif  */
+}
+
+.personalAccConfigBindPayAddress-passwordPlaceholder {
+  color: #4d3813;
+  padding: 0;
+  margin: 0;
+}
+
+.personalAccConfigBindPayAddress-safetyCertificateContentRecord {
+  font-size: 28px;
+  color: #4d3813;
+  margin-top: 10px;
+}
+
+.personalAccConfigBindPayAddress-safetyCertificateBtnWrap {
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.personalAccConfigBindPayAddress-linearGradientsafetyCertificateBtn {
+  width: 240px;
+  height: 70px;
+  line-height: 70px;
+  border: 1px solid #4d3813;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personalAccConfigBindPayAddress-safetyCertificateBtn {
+  font-size: 30px;
+  color: #4d3813;
+}

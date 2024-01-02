@@ -1,0 +1,136 @@
+.personalAccConfigEmail-wrap {
+  flex: 1;
+  background: #000;
+  /*  #ifdef h5  */
+  padding-top: 20px;
+  /*  #endif  */
+}
+
+.personalAccConfigEmail-info {
+  padding: 0 32px;
+}
+
+.personalAccConfigEmail-oldEmail {
+  font-size: 28px;
+  color: #f4dfad;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.personalAccConfigEmail-top30 {
+  margin-top: 30px;
+}
+
+.personalAccConfigEmail-email {
+  border: 1px solid #64635f;
+  border-radius: 20px;
+  height: 120px;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+  }
+  /*  #endif  */
+}
+
+.personalAccConfigEmail-emailInput {
+  border-color: #f4dfad;
+  padding: 0 40px;
+}
+
+.personalAccConfigEmail-emailPlaceholder {
+  color: #c9c5b7;
+  padding: 0;
+  margin: 0;
+}
+
+.personalAccConfigEmail-emailError {
+  color: red;
+  padding: 5px 40px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.personalAccConfigEmail-smsCode {
+  margin-top: 50px;
+  border: 1px solid #64635f;
+  border-radius: 20px;
+  height: 120px;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+  }
+  /*  #endif  */
+}
+
+.personalAccConfigEmail-smsCodeRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.personalAccConfigEmail-smsCodeInput {
+  border-color: #f4dfad;
+  padding: 0 40px;
+}
+
+.personalAccConfigEmail-smsCodePlaceholder {
+  color: #c9c5b7;
+  padding: 0;
+  margin: 0;
+}
+
+.personalAccConfigEmail-smsCodeError {
+  color: red;
+  padding: 5px 40px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.personalAccConfigEmail-error {
+  border: 1px solid red;
+}
+
+.personalAccConfigEmail-btnWrap {
+  padding-top: 20px;
+}
+
+.personalAccConfigEmail-linearGradient {
+  padding: 30px 40px;
+  border-radius: 50px;
+  margin-top: 32px;
+}
+
+.personalAccConfigEmail-linearGradientText {
+  width: 100%;
+  text-align: center;
+  color: #4d3813;
+  font-size: 32px;
+}
+
+.personalAccConfigEmail-linearGradientSmsCode {
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin-right: 20px;
+  width: 250px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.personalAccConfigEmail-linearGradientSmsCodeText {
+  font-size: 30px;
+  color: #4d3813;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  width: 100%;
+}

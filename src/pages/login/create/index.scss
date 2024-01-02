@@ -1,0 +1,220 @@
+.loginCreate-wrap {
+  flex: 1;
+  background: #000;
+}
+
+.loginCreate-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginCreate-logoPx {
+  /*  #ifdef h5  */
+  width: 500px;
+  height: 427px;
+  /*  #endif  */
+}
+
+.loginCreate-info {
+  padding: 0 32px;
+}
+
+.loginCreate-user {
+  border: 1px solid #64635f;
+  border-radius: 20px;
+  height: 120px;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+  }
+  /*  #endif  */
+}
+
+.loginCreate-userInput {
+  border-color: #f4dfad;
+  padding: 0 40px;
+}
+
+.loginCreate-userPlaceholder {
+  color: #c9c5b7;
+  padding: 0;
+  margin: 0;
+}
+
+.loginCreate-userError {
+  color: red;
+  padding: 5px 40px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.loginCreate-email {
+  margin-top: 50px;
+  border: 1px solid #64635f;
+  border-radius: 20px;
+  height: 120px;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+  }
+  /*  #endif  */
+}
+
+.loginCreate-emailInput {
+  border-color: #f4dfad;
+  padding: 0 40px;
+}
+
+.loginCreate-emailPlaceholder {
+  color: #c9c5b7;
+  padding: 0;
+  margin: 0;
+}
+
+.loginCreate-emailError {
+  color: red;
+  padding: 5px 40px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.loginCreate-password {
+  margin-top: 50px;
+  border: 1px solid #64635f;
+  border-radius: 20px;
+  height: 120px;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+  }
+  /*  #endif  */
+}
+
+.loginCreate-passwordInput {
+  border-color: #f4dfad;
+  padding: 0 40px;
+}
+
+.loginCreate-passwordPlaceholder {
+  color: #c9c5b7;
+  padding: 0;
+  margin: 0;
+}
+
+.loginCreate-passwordError {
+  color: red;
+  padding: 5px 40px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.loginCreate-smsCode {
+  margin-top: 50px;
+  border: 1px solid #64635f;
+  border-radius: 20px;
+  height: 120px;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+  }
+  /*  #endif  */
+}
+
+.loginCreate-smsCodeRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loginCreate-smsCodeInput {
+  border-color: #f4dfad;
+  padding: 0 40px;
+}
+
+.loginCreate-smsCodePlaceholder {
+  color: #c9c5b7;
+  padding: 0;
+  margin: 0;
+}
+
+.loginCreate-smsCodeError {
+  color: red;
+  padding: 5px 40px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.loginCreate-error {
+  border: 1px solid red;
+}
+
+.loginCreate-linearGradient {
+  padding: 30px 40px;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+
+.loginCreate-linearGradientText {
+  width: 100%;
+  text-align: center;
+  color: #4d3813;
+  font-size: 32px;
+}
+
+.loginCreate-linearGradientSmsCode {
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin-right: 20px;
+  width: 250px;
+}
+
+.loginCreate-linearGradientSmsCodeText {
+  font-size: 30px;
+  color: #4d3813;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  width: 100%;
+}
+
+.loginCreate-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 32px;
+  position: relative;
+}
+
+.loginCreate-flex-end {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.loginCreate-end {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.loginCreate-zhuce {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: #f4dfad;
+  font-size: 30px;
+}

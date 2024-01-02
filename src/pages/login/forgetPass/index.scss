@@ -1,0 +1,160 @@
+.forgetPass-wrap {
+  flex: 1;
+  background: #000;
+}
+
+.forgetPass-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.forgetPass-logoPx {
+  /*  #ifdef h5  */
+  width: 500px;
+  height: 427px;
+  /*  #endif  */
+}
+
+.forgetPass-info {
+  padding: 0 32px;
+}
+
+.forgetPass-email {
+  border: 1px solid #64635f;
+  border-radius: 20px;
+  height: 120px;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+  }
+  /*  #endif  */
+}
+
+.forgetPass-emailInput {
+  border-color: #f4dfad;
+  padding: 0 40px;
+}
+
+.forgetPass-emailPlaceholder {
+  color: #c9c5b7;
+  padding: 0;
+  margin: 0;
+}
+
+.forgetPass-emailError {
+  color: red;
+  padding: 5px 40px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.forgetPass-password {
+  margin-top: 50px;
+  border: 1px solid #64635f;
+  border-radius: 20px;
+  height: 120px;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+  }
+  /*  #endif  */
+}
+
+.forgetPass-passwordInput {
+  border-color: #f4dfad;
+  padding: 0 40px;
+}
+
+.forgetPass-passwordPlaceholder {
+  color: #c9c5b7;
+  padding: 0;
+  margin: 0;
+}
+
+.forgetPass-passwordError {
+  color: red;
+  padding: 5px 40px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.forgetPass-smsCode {
+  margin-top: 50px;
+  border: 1px solid #64635f;
+  border-radius: 20px;
+  height: 120px;
+  /*  #ifdef h5  */
+  height: 100px;
+  .weui-input {
+    height: 100px;
+    padding: 0 40px;
+    font-size: 30px;
+  }
+  /*  #endif  */
+}
+
+.forgetPass-smsCodeRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forgetPass-smsCodeInput {
+  border-color: #f4dfad;
+  padding: 0 40px;
+}
+
+.forgetPass-smsCodePlaceholder {
+  color: #c9c5b7;
+  padding: 0;
+  margin: 0;
+}
+
+.forgetPass-smsCodeError {
+  color: red;
+  padding: 5px 40px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.forgetPass-error {
+  border: 1px solid red;
+}
+
+.forgetPass-linearGradient {
+  padding: 30px 40px;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+
+.forgetPass-linearGradientText {
+  width: 100%;
+  text-align: center;
+  color: #4d3813;
+  font-size: 32px;
+}
+
+.forgetPass-linearGradientSmsCode {
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin-right: 20px;
+  width: 250px;
+}
+
+.forgetPass-linearGradientSmsCodeText {
+  font-size: 30px;
+  color: #4d3813;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  width: 100%;
+}

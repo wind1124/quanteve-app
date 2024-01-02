@@ -1,0 +1,168 @@
+.dataCenter-wrap {
+  flex: 1;
+  background: #061226;
+  /*  #ifdef h5  */
+  padding-top: 20px;
+  /*  #endif  */
+}
+
+.dataCenter-totlaPriceWrap {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #f4dfad;
+  margin: 0 20px 0;
+  border-radius: 20px;
+  position: relative;
+}
+
+.dataCenter-mt {
+  margin-top: 20px;
+  border: 1px solid #f4dfad;
+  flex-direction: column;
+}
+
+.dataCenter-priceWrap {
+  flex: 1;
+  padding: 20px 0;
+}
+
+.dataCenter-price {
+  text-align: center;
+  font-size: 32px;
+  color: #f4dfad;
+  font-weight: 500;
+  /*  #ifdef rn  */
+  font-weight: bold;
+  /*  #endif  */
+}
+.dataCenter-priceName {
+  text-align: center;
+  font-size: 24px;
+  color: #f4dfad;
+  font-weight: 500;
+  margin-top: 4px;
+  /*  #ifdef rn  */
+  font-weight: bold;
+  /*  #endif  */
+}
+
+.dataCenter-dataTrend {
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 40px);
+  /*  #ifdef rn  */
+  width: 100%;
+  padding-right: 36px;
+  /*  #endif  */
+}
+
+.dataCenter-dataTrendTitle {
+  font-size: 28px;
+  color: #f4dfad;
+  padding: 36px;
+}
+
+.dataCenter-checked {
+  display: flex;
+  flex-direction: row;
+  background: #504a3a;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.dataCenter-linearGradient {
+  border-radius: 10px;
+  padding: 16px 56px;
+  /*  #ifdef rn  */
+  padding: 8px 56px;
+  /*  #endif  */
+}
+
+.dataCenter-linearGradientText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 10px;
+  /*  #ifdef rn  */
+  height: 50px;
+  line-height: 50px;
+  /*  #endif  */
+}
+
+.dataCenter-linearGradientImg {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+
+  /*  #ifdef rn  */
+  width: 38px;
+  height: 38px;
+  /*  #endif  */
+}
+
+.dataCenter-chartHeight {
+  height: 430px;
+}
+
+.dataCenter-chart {
+  z-index: 1;
+  position: absolute;
+  top: 28px;
+}
+
+.dataCenter-tabs {
+  padding: 20px 32px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dataCenter-mb {
+  border: 0;
+}
+
+.dataCenter-pd {
+  padding-bottom: 20px;
+}
+
+.dataCenter-realTime {
+  padding: 20px 36px;
+  color: #f4dfad;
+  font-size: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dataCenter-top20 {
+  margin-top: 20px;
+}
+
+.dataCenter-mr0 {
+  margin-right: 0;
+}
+
+.dataCenter-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dataCenter-red {
+  // 涨幅用的红色
+  color: #f55249;
+}
+
+.dataCenter-green {
+  color: #00ff00;
+}

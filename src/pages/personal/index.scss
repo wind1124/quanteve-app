@@ -1,0 +1,134 @@
+.personal-wrap {
+  flex: 1;
+  background: #000;
+  /*  #ifdef h5  */
+  padding-top: 20px;
+  /*  #endif  */
+}
+
+.personal-myInfo {
+  position: relative;
+}
+
+.personal-myInfoImg {
+  width: 100%;
+}
+
+.personal-myInfoContent {
+  position: absolute;
+  top: 66px;
+  left: 200px;
+  /*  #ifdef rn  */
+  top: 75px;
+  /*  #endif  */
+}
+
+.personal-myInfoContentName {
+  color: #f4dfad;
+  font-size: 32px;
+}
+
+.personal-myInfoContentDesc {
+  color: #f4dfad;
+  font-size: 30px;
+}
+
+.personal-functionKeys {
+  background: #141414;
+  margin: 20px;
+  padding: 32px 16px;
+  border: 1px solid #64635f;
+  border-radius: 20px;
+}
+
+.personal-functionKeysItem {
+  border-radius: 20px;
+  background: #141414;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /*  #ifdef h5  */
+  &:active {
+    background-color: #1e1e1e !important;
+  }
+  /*  #endif  */
+
+  /*  #ifdef rn  */
+  padding: 0 24px;
+  height: 110px;
+  /*  #endif  */
+}
+
+.personal-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.personal-functionKeysItemIcon {
+  width: 60px;
+  height: 60px;
+
+  /*  #ifdef h5  */
+  width: 56px;
+  height: 56px;
+  /*  #endif  */
+}
+
+.personal-functionKeysItemName {
+  color: #f4dfad;
+  font-size: 30px;
+  margin-left: 16px;
+}
+
+.personal-linearGradient {
+  height: 500px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  overflow: hidden;
+}
+
+.personal-linearGradientHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.personal-cannel {
+  font-size: 28px;
+  color: #4d3813;
+}
+.personal-title {
+  font-size: 30px;
+  color: #4d3813;
+  font-weight: 500;
+}
+.personal-submit {
+  font-size: 28px;
+  color: #4d3813;
+}
+
+.personal-personalContent {
+  // padding: ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  padding: 0 20px;
+}
+.personal-langText {
+  width: 100%;
+  font-size: 32px;
+  color: #4d3813;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.personal-line {
+  border-top: 1px solid #4d3813;
+  border-bottom: 1px solid #4d3813;
+}
