@@ -65,7 +65,7 @@ export default function Login() {
       Keyboard.removeAllListeners('keyboardDidShow')
     }
   })
-
+ 
   const handleGetSmsCode = async () => {
     if (time !== 60) return
     if (!email) {
